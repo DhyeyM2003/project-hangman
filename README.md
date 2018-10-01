@@ -21,6 +21,21 @@ When you have verified that your code works, submit a pull request. Note: make s
 - It will automatically select my *original* repository as the "base fork", which is good! **However**, the "base" needs to be the class you are in (`grade-11b, grade-11c, or grade-10`).
 - Wrte a nice message including your group members and what the pull request is for (i.e., checking if a letter is in a word).
 
+## Syncing your Fork
+There will be times when your Fork (copy of my repo) will be out of date. There is an elegant CLI way ot do this. On GitHub.com, we need to do a reverse pull request. 
+- Go to the *original* repo,
+- Click the `Pull Requests` tab
+- Click the `New Pull Request` button
+- Click the link "you can also **Compare across forks**".
+- The **right side** should be the *original* `ICS3U/project-hangman` with the branch `grade-##x`. (The branch for your specific class) This will be the class's official branch that will be more up-to-date than your fork.
+- On the **left side** you will select *your repo*. You can select the `master` branch to pull the changes into.
+- Confirm that you are (reading from left to right) taking the `grade-##x` brancho of *my* repo and putting the changes (check the arrow) into the `master` branch of *your* repo.
+- Click the `Create pull request` button. Then again.
+- You will see the created pull request saying `<your username> wants to merge 2 commits into <you>:master from ICS3U-Gallo:grade-##x`.
+Confirm that this is the case.
+- Click `Merge pull request`
+
+
 ## Need to learn
 ### if, elif, else
 This is explained in Chapter 4 of Head First: Learn to Code, or you can check out [Snakify.org](https://snakify.org/en/lessons/if_then_else_conditions/).
